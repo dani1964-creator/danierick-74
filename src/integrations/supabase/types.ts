@@ -588,6 +588,10 @@ export type Database = {
           primary_color: string
           privacy_policy_content: string
           secondary_color: string
+          sections_background_color_1: string
+          sections_background_color_2: string
+          sections_background_color_3: string
+          sections_background_style: string
           terms_of_use_content: string
           tracking_scripts: Json
           updated_at: string

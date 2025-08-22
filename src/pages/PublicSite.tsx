@@ -69,6 +69,10 @@ interface BrokerProfile {
   about_us_content?: string | null;
   privacy_policy_content?: string | null;
   terms_of_use_content?: string | null;
+  sections_background_style?: string | null;
+  sections_background_color_1?: string | null;
+  sections_background_color_2?: string | null;
+  sections_background_color_3?: string | null;
 }
 
 interface BrokerContact {
