@@ -65,6 +65,10 @@ interface BrokerProfile {
   whatsapp_number: string | null;
   address: string | null;
   cnpj: string | null;
+  sections_background_style?: string | null;
+  sections_background_color_1?: string | null;
+  sections_background_color_2?: string | null;
+  sections_background_color_3?: string | null;
 }
 
 interface BrokerContact {
